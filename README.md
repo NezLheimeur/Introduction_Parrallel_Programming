@@ -1,6 +1,7 @@
+# Introduction to Parrallel Programming
 
 This Project present a small introduction on how we can parallelize a program on a CPU using AVX and Pthreads.
-Here we compute an l1 norm of a vector: S=sqrt(abs(X))
+Here we compute an l1 norm of a vector: <b>S=sqrt(abs(X))</b>
 
 to compile the project use the command: gcc -o <executable_name> main.c -mavx -lm -lpthread
 
